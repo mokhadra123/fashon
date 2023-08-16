@@ -1,0 +1,415 @@
+/*============
+General Style
+============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+/*============
+Header Style
+============*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+  padding-left: 7px;
+}
+header .social-media a i,
+header .search i {
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px;
+}
+.search {
+  margin-right: 7px;
+}
+header .social-media a:hover,
+header .search :hover {
+  background-color: #a0a0a0;
+  color: black;
+}
+
+/*=================
+Hero Section Style
+===================*/
+.hero-title {
+  text-align: center;
+  margin: 70px 0;
+}
+.hero-title .title {
+  font-size: 50px;
+}
+.hero-title p span {
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+}
+.hero-content {
+  background-image: url(./images/jane.jpg);
+  width: 100%;
+  height: 1050px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  transform: translate(0px, 390px);
+  padding-left: 30px;
+}
+.content-text h3 {
+  font-size: 36px;
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+.content-text h2 {
+  font-size: 70px;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.content-text .button-content {
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+
+  background-color: #fff;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.content-text .button-content:hover {
+  opacity: 0.9;
+}
+
+/*=================
+Content Section Style
+===================*/
+/*////////////////////////////////////////////////
+=================
+Left Content Section Style
+===================*/
+.content-page {
+  background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 30px;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+}
+.left-content-1,
+.left-content-2,
+.left-content-3 {
+  padding: 10px 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.left-content .header-left-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.left-content img {
+  width: 100%;
+}
+.left-content .header-left-content h2 {
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.left-content .header-left-content p span {
+  color: #666666;
+}
+.left-content .header-left-content p {
+  font-size: 18px;
+}
+.left-content .description-left-content .first-p span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.left-content .description-left-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  word-spacing: 1.5px;
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.react-left-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  padding-bottom: 40px;
+}
+.react-left-content button {
+  padding: 8px 15px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border: #bdbdbd solid 1px;
+}
+.react-left-content p {
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-right: 3px;
+}
+.react-left-content p span {
+  background-color: white;
+  color: #000;
+  padding: 0px 8px;
+}
+.comment-left-content {
+  padding: 30px 0 20px;
+  display: flex;
+  align-items: center;
+  border-top: #e6e5e5 solid 1px;
+}
+.comment-left-content img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.comment-left-content .description-comment-left-content {
+  margin-left: 50px;
+}
+.description-comment-left-content p > span {
+  color: #666666;
+  line-height: 2;
+}
+.description-comment-left-content .another-font {
+  font-family: "Open Sans", sans-serif;
+}
+/*////////////////////////////////////////////////
+=================
+Right Content Section Style
+===================*/
+.right-content {
+  padding-left: 30px;
+}
+
+.right-content-1 img {
+  width: 100%;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-content-1 .description {
+  width: 100%;
+  background-color: black;
+  color: white;
+  transform: translate(0, -10px);
+  -webkit-transform: translate(0, -10px);
+  -moz-transform: translate(0, -10px);
+  -ms-transform: translate(0, -10px);
+  -o-transform: translate(0, -10px);
+  padding: 20px;
+}
+.right-content-1 .description h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.right-content-1 .description p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+.right-content-2 {
+  margin-top: 30px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.header-right-content {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 19px;
+  background-color: black;
+  color: white;
+}
+
+.right-content-2 .user {
+  width: 100%;
+  border-bottom: 1px solid #d2d0d0;
+  display: flex;
+  align-items: center;
+  padding: 13px 15px;
+}
+.right-content-2 .user img {
+  width: 60px;
+  height: 60px;
+}
+.right-content-2 .user-desc {
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.right-content-2 .last-user img {
+  filter: sepia(75%);
+}
+.right-content-2 .last-user {
+  border-bottom: unset;
+}
+.right-content-2 .user:hover {
+  background-color: #ccc;
+}
+.right-conetnt-3 {
+  margin-top: 30px;
+  background-color: white;
+}
+.right-conetnt-3 .padding {
+  padding: 15px;
+}
+.body-right-content-3 {
+  height: 210px;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+.right-content-4 {
+  margin-top: 40px;
+}
+.body-right-conetnt-4 {
+  height: 120px;
+  background-color: white;
+  padding: 10px;
+}
+
+.body-right-conetnt-4 span {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  padding: 0 4px;
+  line-height: 2;
+  margin-left: 5px;
+}
+.right-content-5 {
+  margin-top: 40px;
+  /* height: 380px; */
+  background-color: white;
+}
+.images-right-content-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding: 15px;
+}
+.images-right-content-5 img {
+  width: 100%;
+  height: 100%;
+}
+.right-content-6 {
+  margin-top: 40px;
+}
+.right-content-6 .social-media {
+  padding: 10px 5px;
+  height: 50px;
+  background-color: white;
+}
+.right-content-6 .social-media a i {
+  color: black;
+  font-size: 20px;
+}
+.right-content-6 .social-media a i:hover {
+  color: #abaaaa;
+}
+.right-content-7 {
+  margin-top: 40px;
+}
+.right-content-7 .subscribe-body {
+  background-color: white;
+  height: 200px;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.subscribe-body .p {
+  font-weight: bold;
+}
+.subscribe-body input {
+  width: 100%;
+  height: 40px;
+  border: #a0a0a0 solid 1px;
+  margin: 17px 0;
+}
+.subscribe-body input::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.subscribe-body button {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(244, 67, 54);
+  border: #abaaaa solid 1px;
+  color: white;
+  font-size: 18px;
+}
+.subscribe-body button:hover {
+  background-color: #abaaaa;
+  color: black;
+}
+
+/*////////////////////////////////////////////////
+=================
+Right Content Section Style
+===================*/
+.footer-section {
+  background-color: #616161;
+  height: 200px;
+  padding: 30px;
+}
+
+.footer-section span {
+  display: block;
+}
+
+.footer-section .to-top {
+  background-color: black;
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.footer-section .to-top a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-section .to-top i {
+  margin-right: 10px;
+}
+.footer-section .powered-by,
+.footer-section .powered-by a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}

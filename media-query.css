@@ -1,0 +1,128 @@
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .hero-content {
+    height: 600px;
+    background-size: cover;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 140px);
+    -webkit-transform: translate(0px, 140px);
+    -moz-transform: translate(0px, 140px);
+    -ms-transform: translate(0px, 140px);
+    -o-transform: translate(0px, 140px);
+  }
+
+  .content-text h3 {
+    font-size: 40 0 px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .content-text h2 {
+    display: block;
+  }
+
+  .content-text .button-content {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-content {
+    height: 700px;
+    background-size: cover;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 140px);
+    -webkit-transform: translate(0px, 140px);
+    -moz-transform: translate(0px, 140px);
+    -ms-transform: translate(0px, 140px);
+    -o-transform: translate(0px, 140px);
+  }
+
+  .content-text h3 {
+    font-size: 40 0 px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .content-text h2 {
+    display: block;
+  }
+
+  .content-page {
+    display: block;
+    padding: 20px;
+  }
+  .right-content {
+    padding-left: 0;
+  }
+  .right-content-1 img {
+    height: auto;
+    background-size: cover;
+  }
+  .right-content-5 {
+    height: auto;
+  }
+  .images-right-content-5 {
+    gap: 20px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-page {
+    display: block;
+    padding: 20px;
+  }
+  .right-content {
+    padding-left: 0;
+  }
+  header {
+    display: none;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-title .title {
+    font-size: 40px;
+  }
+
+  .hero-title > p {
+    font-size: 17px;
+  }
+
+  .hero-content {
+    height: 500px;
+    background-size: cover;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 140px);
+    -webkit-transform: translate(0px, 140px);
+    -moz-transform: translate(0px, 140px);
+    -ms-transform: translate(0px, 140px);
+    -o-transform: translate(0px, 140px);
+  }
+
+  .content-text h3 {
+    font-size: 25px;
+  }
+
+  .content-text h2 {
+    display: none;
+  }
+
+  .content-text .button-content {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
